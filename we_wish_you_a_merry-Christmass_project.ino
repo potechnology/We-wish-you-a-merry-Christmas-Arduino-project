@@ -3,7 +3,7 @@
   Connect a piezo buzzer or speaker to pin 11 or select a new pin.
                                         
                                               
-                                              Robson Couto, 2019
+                                              
 */
 #include <Wire.h> 
 
@@ -113,7 +113,7 @@ int buzzer = 11;
 int melody[] = {
 
   // We Wish You a Merry Christmas
-  // Score available at https://musescore.com/user/6208766/scores/1497501
+  
   
   NOTE_C5,4, //1
   NOTE_F5,4, NOTE_F5,8, NOTE_G5,8, NOTE_F5,8, NOTE_E5,8,
